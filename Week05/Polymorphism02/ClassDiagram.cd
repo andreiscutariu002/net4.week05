@@ -1,52 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Polymorphism02.Circle">
-    <Position X="0.5" Y="6.5" Width="1.5" />
+    <Position X="0.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQA=</HashCode>
       <FileName>Circle.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Polymorphism02.Figure">
-    <Position X="1.5" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
-      <FileName>IFigure.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
   <Class Name="Polymorphism02.Rectangle" Collapsed="true">
-    <Position X="3.75" Y="5.75" Width="1.5" />
+    <Position X="2.75" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAIAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
       <FileName>Rectangle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Polymorphism02.SuperCircle">
-    <Position X="2.75" Y="7.75" Width="1.5" />
+    <Position X="0.5" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
       <FileName>SuperCircle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Polymorphism02.SuperSuperCircle">
-    <Position X="1" Y="9.75" Width="1.5" />
+    <Position X="0.5" Y="10.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
       <FileName>SuperSuperCircle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Polymorphism02.Triangle" Collapsed="true">
-    <Position X="6" Y="5.75" Width="1.5" />
+    <Position X="5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAIEAAAgAA=</HashCode>
       <FileName>Triangle.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="Polymorphism02.IFigure" Collapsed="true">
-    <Position X="1.5" Y="3.5" Width="1.5" />
+  <Class Name="Polymorphism02.Figure">
+    <Position X="2.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <HashCode>AAAIAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Figure.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Polymorphism02.IFigure" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
       <FileName>IFigure.cs</FileName>
     </TypeIdentifier>
   </Interface>

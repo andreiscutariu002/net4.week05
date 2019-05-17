@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6114A73D-1BC2-4BB6-B141-36CF1E514F9D}</ProjectGuid>
+    <ProjectGuid>{651E79D1-28CD-47B7-814D-638E73C317C5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Polymorphism02</RootNamespace>
-    <AssemblyName>Polymorphism02</AssemblyName>
+    <RootNamespace>Polymorphism03.Overload</RootNamespace>
+    <AssemblyName>Polymorphism03.Overload</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,19 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Circle.cs" />
-    <Compile Include="Figure.cs" />
-    <Compile Include="IFigure.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="SuperCircle.cs" />
-    <Compile Include="SuperSuperCircle.cs" />
-    <Compile Include="Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
