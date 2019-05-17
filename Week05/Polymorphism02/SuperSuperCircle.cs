@@ -15,7 +15,7 @@
 
         public override void PrintArea()
         {
-            Console.WriteLine("My super area: " + this.GetArea());
+            Console.WriteLine("My super super area: " + this.GetArea());
         }
     }
 }

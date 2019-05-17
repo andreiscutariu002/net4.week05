@@ -12,5 +12,10 @@
         {
             return Math.PI * this.R * this.R * 2;
         }
+
+        //public override string MyType()
+        //{
+        //    return "Ceva";
+        //}
     }
 }
