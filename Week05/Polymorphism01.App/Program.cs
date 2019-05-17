@@ -6,6 +6,15 @@ using System.Threading.Tasks;
 
 namespace Polymorphism01.App
 {
+    // override 
+
+    // overload
+
+    public interface ILogger
+    {
+        void Log(string s);
+    }
+
     class Program
     {
         static void Main(string[] args)
