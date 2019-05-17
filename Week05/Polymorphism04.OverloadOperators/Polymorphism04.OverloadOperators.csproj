@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{651E79D1-28CD-47B7-814D-638E73C317C5}</ProjectGuid>
+    <ProjectGuid>{2ED75E95-6902-46C3-85DF-F342A4D7A6BA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Polymorphism03.Overload</RootNamespace>
-    <AssemblyName>Polymorphism03.Overload</AssemblyName>
+    <RootNamespace>Polymorphism04.OverloadOperators</RootNamespace>
+    <AssemblyName>Polymorphism04.OverloadOperators</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

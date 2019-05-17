@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism02", "Polymorph
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism03.Overload", "Polymorphism03.Overload\Polymorphism03.Overload.csproj", "{651E79D1-28CD-47B7-814D-638E73C317C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism04.OverloadOperators", "Polymorphism04.OverloadOperators\Polymorphism04.OverloadOperators.csproj", "{2ED75E95-6902-46C3-85DF-F342A4D7A6BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{651E79D1-28CD-47B7-814D-638E73C317C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{651E79D1-28CD-47B7-814D-638E73C317C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{651E79D1-28CD-47B7-814D-638E73C317C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED75E95-6902-46C3-85DF-F342A4D7A6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED75E95-6902-46C3-85DF-F342A4D7A6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED75E95-6902-46C3-85DF-F342A4D7A6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED75E95-6902-46C3-85DF-F342A4D7A6BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
