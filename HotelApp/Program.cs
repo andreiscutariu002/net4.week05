@@ -11,7 +11,7 @@
             ILogger log = new ConsoleLogger();
 
             var hotelCreator = new HotelCreator();
-            var hotelManager = new HotelManager();
+            var hotelManager = new HotelManager(log);
 
             // add hotels
             var hotel1 = hotelCreator.CreateAHotel();

@@ -3,13 +3,16 @@
     using System;
     using System.Collections.Generic;
     using Models;
+    using Polymorphism01;
 
     public class HotelManager
     {
+        private readonly ILogger log;
         private readonly List<Hotel> hotels;
 
-        public HotelManager()
+        public HotelManager(ILogger log)
         {
+            this.log = log;
             this.hotels = new List<Hotel>();
         }
 
@@ -26,7 +29,11 @@
             {
                 if (hotel.Name == name && hotel.City == city)
                 {
+                    var msg = $"Delete hotel {name} from {city}.";
+                    this.log.Log(msg);
+
                     hotelToRemove = hotel;
+
                     break;
                 }
             }
